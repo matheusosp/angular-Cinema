@@ -42,3 +42,34 @@ body {
 .quebrar-linha {
   white-space: pre-line;
 }
+@media screen and (max-width: 750px) {
+  html{
+    font-size: 8px;
+  }
+
+  .mat-cell{
+    text-align: center!important;
+  }
+  .cdk-column-data{
+    text-align: left!important;
+  }
+  .cdk-column-hora{
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+
+  html{
+    font-size: 6px;
+  }
+
+  .mat-cell{
+    text-align: center!important;
+  }
+  .cdk-column-data{
+    text-align: left!important;
+  }
+  .cdk-column-hora{
+    display: none;
+  }
+}

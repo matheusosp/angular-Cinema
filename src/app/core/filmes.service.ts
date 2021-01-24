@@ -6,7 +6,7 @@ import { Filme } from '../shared/models/filme';
 import { ConfigPrams } from '../shared/models/config-prams';
 import { ConfigParamsService } from './config-params.service';
 
-const url = 'https://cinema-java.herokuapp.com/filmes/';
+const url = 'http://cinema-java.herokuapp.com/filmes/';
 
 @Injectable({
   providedIn: 'root'
