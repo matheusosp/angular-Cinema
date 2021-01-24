@@ -42,7 +42,7 @@ body {
 .quebrar-linha {
   white-space: pre-line;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   html{
     font-size: 8px;
   }
@@ -55,6 +55,9 @@ body {
   }
   .cdk-column-hora{
     display: none;
+  }
+  .mat-header-cell{
+    text-align: center!important;
   }
 }
 @media screen and (max-width: 650px) {
@@ -70,6 +73,33 @@ body {
     text-align: left!important;
   }
   .cdk-column-hora{
+    display: none;
+  }
+  .mat-header-cell{
+    text-align: center!important;
+  }
+  .cdk-column-animacao{
+    display: none;
+  }
+  .cdk-column-audio{
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .cdk-column-hora{
+    display: none;
+  }
+  .cdk-column-valorIngresso{
+    display: none;
+  }
+  .cdk-column-animacao{
+    display: none;
+  }
+  .mat-header-cell{
+    text-align: center!important;
+  }
+  .cdk-column-audio{
     display: none;
   }
 }
