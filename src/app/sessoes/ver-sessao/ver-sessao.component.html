@@ -1,0 +1,21 @@
+<mat-list *ngIf="sessao; else semRegistro">
+
+  <mat-list-item> Filme: {{sessao.filme.titulo}} </mat-list-item>
+  <mat-list-item> Data : {{sessao.data | date: 'dd/MM/yyyy' }} </mat-list-item>
+  <mat-list-item> Hora: {{sessao.hora }} </mat-list-item>
+  <mat-list-item class="quebrar-linha"> valor do Ingresso: R$ {{sessao.valorIngresso}} </mat-list-item>
+  <mat-list-item> Tipo de animação: {{sessao.tipoAnimacao}}</mat-list-item>
+  <mat-list-item> Tipo de audio: {{sessao.tipoAudio}}</mat-list-item>
+  <mat-list-item> Sala: {{sessao.sala.nome}}</mat-list-item>
+
+</mat-list>
+<mat-card>
+  <mat-card-actions>
+    <button color="accent" mat-raised-button (click)="editar()">Editar</button>
+    <button color="warn" mat-raised-button (click)="excluir()">Excluir</button>
+  </mat-card-actions>
+</mat-card>
+
+<ng-template #semRegistro>
+  <h1 class="full-width main-div">Nenhum registro encontrado!</h1>
+</ng-template>

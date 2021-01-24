@@ -1,0 +1,20 @@
+<mat-toolbar class="app-title">Cadastrar Sessão</mat-toolbar>
+<div class="main-div">
+  <mat-card class="center width50" *ngIf="cadastro" >
+    <form autocomplete="off" novalidate [formGroup]="cadastro" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
+      <mat-card-content>
+        <dio-input-date titulo="Data *" controlName="data" [formGroup]="cadastro" ></dio-input-date>
+        <ngb-timepicker [formGroup]="cadastro" controlName="hora" [(ngModel)]="time" [ngModelOptions]="{standalone: true}"></ngb-timepicker>
+        <dio-input-number titulo="Valor do Ingresso *" controlName="valorIngresso" step="0.1" [formGroup]="cadastro"></dio-input-number>
+        <dio-input-select titulo="Animacao *" [opcoes]="animacoes" controlName="tipoAnimacao" [formGroup]="cadastro"></dio-input-select>
+        <dio-input-select titulo="Audio *" [opcoes]="audio" controlName="tipoAudio" [formGroup]="cadastro"></dio-input-select>
+        <dio-input-select titulo="Filme *" [opcoes]="filmesTitulo" controlName="filme" [formGroup]="cadastro"></dio-input-select>
+        <dio-input-select titulo="Sala *" [opcoes]="salas" controlName="sala" [formGroup]="cadastro"></dio-input-select>
+      </mat-card-content>
+      <mat-card-actions>
+        <button type="submit" color="accent" mat-raised-button>Salvar</button>
+        <button type="reset" color="warn" mat-raised-button>Cancelar</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>
