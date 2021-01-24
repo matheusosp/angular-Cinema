@@ -6,7 +6,7 @@ import { ConfigPrams } from '../shared/models/config-prams';
 import { ConfigParamsService } from './config-params.service';
 import { Sala } from '../listagem-salas/listagem-salas.component';
 
-const url = 'https://cinema-java.herokuapp.com/sessoes/';
+const url = 'http://127.0.0.1/sessoes/';
 
 @Injectable({
   providedIn: 'root'
