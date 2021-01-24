@@ -38,11 +38,9 @@ export class ListagemSessoesComponent implements OnInit {
 
   ngOnInit() {
     this.listarSessoes()
-    console.log(this.paginator)
   }
   ngAfterViewInit() {
     this.sessoes.paginator = this.paginator;
-    console.log("aaa")
   }
   private listarSessoes(): void {
     this.config.pagina++;
