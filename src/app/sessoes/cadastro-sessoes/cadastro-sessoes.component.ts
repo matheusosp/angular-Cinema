@@ -59,7 +59,7 @@ export class CadastroSessoesComponent implements OnInit {
     let sessao = this.cadastro.getRawValue() as Sessao;
     this.filmeService.findByTitulo(sessao.filme).subscribe((filme: Filme) => {
       sessao.filme = filme
-      sessao.hora = (new Date(2000,10,5,this.time.hour, this.time.minute, 0, 0).toString())
+      sessao.hora = (new Date(2000,10,5,this.time.hour-2, this.time.minute, 0, 0).toString())
       this.sessaoService.findSala(sessao.sala).subscribe((sala: Sala) =>{  
         sessao.data = sessao.data?.toString();      
         sessao.sala= sala;
