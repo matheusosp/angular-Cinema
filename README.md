@@ -11,13 +11,12 @@ https://cinema-angular-mosp.herokuapp.com/
 ## Comandos pra rodar localmente:
 
 ```
-​```shell script
 git clone https://github.com/matheusosp/angular-Cinema.git
 cd cinema
 git checkout local
 npm install
 ng serve -o 
-​```
+
 ```
 
 
