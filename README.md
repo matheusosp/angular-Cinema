@@ -2,8 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.
 
-Deploy
-https://cinema-angular-mosp.herokuapp.com/
+### Deploy: [https://cinema-angular-mosp.herokuapp.com/](https://cinema-angular-mosp.herokuapp.com/)
+
+### Backend repository: [https://github.com/matheusosp/java-cinema](https://github.com/matheusosp/java-cinema)
+
+### Backend Deploy: [https://cinema-java.herokuapp.com/](https://cinema-java.herokuapp.com/)
 
 ![Foo](https://raw.githubusercontent.com/matheusosp/angular-Cinema/main/Cinema%20management%20.jpg)
 
