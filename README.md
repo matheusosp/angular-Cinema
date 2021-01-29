@@ -18,7 +18,20 @@ npm install
 ng serve -o 
 
 ```
+![Product Gif](https://media3.giphy.com/media/If1RjmmSHxT9yPI6rU/giphy.gif)
 
+### TECHNOLOGIES
+- Typescript
+- NodeJS
+- Angular 
+- Angular Material
+- Json Server
+- NGX-Infinite-Scroll
+- RxJS 
+- Paginação 
+- Filtros 
+- Rest 
+- Parametrização
 
 
 ## Development server
