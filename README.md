@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Deploy
 https://cinema-angular-mosp.herokuapp.com/
 
+![Foo](https://raw.githubusercontent.com/matheusosp/angular-Cinema/main/Cinema%20management%20.jpg)
+
+
 ## Comandos pra rodar localmente:
 
 ```
